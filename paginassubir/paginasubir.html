@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d8a861ec;
+            color: #ffffff;
+            font-size: 25px;
+        }
+        header {
+            background-color: #81ecd5bd;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 37px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f7d391;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        nav ul li {
+            display: inline;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav ul li a:hover {
+            background-color: #77c2ee;
+            font-size: 25px;font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .marquee-container {
+            background-color: #91f883;
+            padding: 10px 0;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .content-section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 127, 80, 0.836);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+       
+        th, td {
+            border: 1px solid #f192c2c0;
+            padding: 8px;
+            text-align: left;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        th {
+            background-color: #def07d;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #a789df73;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        form button {
+            background-color: #7df17d;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #eb9065;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgb(118, 206, 201);
+        }
+        footer {
+            background-color: #f09e9e;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 0,1 em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img:hover{
+    transform:scale(1.2) ;
+          } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <img src="https://i.pinimg.com/736x/63/83/96/638396e83693fb3fa26d57f7e4df7109.jpg" direction ="left" alt="38px" width="300">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#seccion1">informacion de peliculas</a></li>
+            <li><a href="#tablas">Tablas de peliculas mas vistas</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+            <li><a href="#pelicula destacada">pelicula destacada</a></li>
+        </ul>
+    </nav>
+
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="8">
+            ¡Viaja a trves de peliculas y sueña con fantasias!
+        </marquee>
+    </div>
+
+    <section id="inicio" class="content-section">
+        <h2>¡Que significa una pelicula</h2>
+        <p>Película es un término que proviene del latín pellicŭla y que tiene diversos usos. Su acepción más habitual está vinculada a la obra cinematográfica que suele narrar una historia escrita o adaptada por un guionista y cuya puesta en escena depende de un director.
+            La película puede contar con la participación de actores que interpretan a los distintos personajes de la historia o presentar dibujos animados mediante distintos tipos de técnicas. Es importante tener en cuenta que la película es la obra en sí misma, más allá de su formato y del lugar de exhibición (es decir, una película puede ser proyectada en una sala de cine o ser vista en un televisor en el hogar).</p>
+        <p> ¡Explora las otras secciones!</p>
+    </section>
+
+    <section id="seccion1" class="content-section">
+        <h2>Esta es la Sección Número Uno</h2>
+        
+     <h2>   Para empezar, te presentamos nuestrotop con las 10 mejores películas de Disney de animación de nuestro ranking de los clásicos:</h2>
+            <li>El rey léon (1994)</li> 
+            <li>Zootrópolis (2016)</li> 
+            <li>Aladdin (1992)</li> 
+            <li>La bella y la bestia (1991)</li> 
+            <li> Big Hero 6 (2014)</li> 
+            <li>Rompe Ralph (2012)</li> 
+            <li>Enredados (2010)</li> 
+            <li>Fantasía (1940)</li> 
+        
+    </section>
+
+    <section id="tablas" class="content-section">
+        <h2>Tabla de Datos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Profesión</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td>30</td>
+                    <td>Ingeniero</td>
+                </tr>
+                <tr>
+                    <td>María López</td>
+                    <td>25</td>
+                    <td>Diseñadora</td>
+                </tr>
+                <tr>
+                    <td>Carlos Gómez</td>
+                    <td>40</td>
+                    <td>Abogado</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="formulario" class="content-section">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+    <h1>podras distraerte con un juego de adivinar las peliculas de disney</h1>
+    <iframe width="560" height="315" src=https://es.educaplay.com/recursos-educativos/11376218-encuesta.htmltitle title="juego educaplay " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qnwMZkvMQSo?si=k4SFqbAyYU-cjv4-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="pelicula destacada" class="content-section image-container">
+        <h2>pelicula destacada</h2>
+        
+        <h2>La dama y el vagabundo</h2>
+        <img src="https://i.pinimg.com/736x/e0/c9/b2/e0c9b2f971b575f13a8a6bfb2fa613d3.jpg" alt="100px">
+        <h2>¿De qué trata la historia? En LA DAMA Y EL VAGABUNDO, Lady (Dama) es una cocker spaniel mimada de una pareja a la que conoce como "Jim Dear" y "Darling". Cuando los dueños de Lady tienen un bebé, Lady (Dama) se muestra aprensiva, pero Jim Dear y Darling le aseguran que sigue siendo importante para ellos</h2>
+    </section>
+
+       <center><h1>Pelicula  </h1></center>
+       <center><h2>Monster Inc</h2></center>
+       <center> <img src="https://i.pinimg.com/736x/39/88/cf/3988cf41b796f3c886bbfaf6ef56bedb.jpg" alt="70px" whith="200"></center>
+        <h2>¿De qué trata la historia? Los monstruos de Monsters, Inc. tienen más miedo de los niños que los niños de los monstruos. Pero los monstruos necesitan los gritos de los niños para alimentar su mundo, y los niños se están volviendo tan difíciles de asustar que el mundo de los monstruos está sufriendo apagones</h2>
+        
+    <footer>
+        <p>&copy; espero te guste  el contenido </p>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
